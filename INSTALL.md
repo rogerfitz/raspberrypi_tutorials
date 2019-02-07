@@ -1,4 +1,6 @@
 ```
-wget http://repo.continuum.io/miniconda/Miniconda3-latest-Linux-armv7l.sh
-bash Miniconda3-latest-Linux-armv7l.sh -b -p ~/anaconda
+sudo apt-get install -y python-dev
+sudo pip3 install --upgrade pip
+sudo pip3 install jupyter
+sudo ipython3 kernelspec install-self
 ```
