@@ -1,9 +1,9 @@
+Use this https://github.com/jjhelmus/berryconda 
 ```
-sudo apt-get install -y python-dev
-sudo pip3 install --upgrade pip
-sudo pip3 install jupyter
-sudo ipython3 kernelspec install-self
-jupyter notebook --generate-config
-
-sudo -H pip3 install pandas matplotlib
+wget https://github.com/jjhelmus/berryconda/releases/download/v2.0.0/Berryconda3-2.0.0-Linux-armv7l.sh
+chmod +x Berryconda3-2.0.0-Linux-armv7l.sh
+./Berryconda3-2.0.0-Linux-armv7l.sh
+conda install pandas matplotlib opencv
 ```
+# add ffmpeg for video support
+http://jollejolles.com/installing-ffmpeg-with-h264-support-on-raspberry-pi/
